@@ -4,6 +4,7 @@ files:
  - source: .
    destination: /home/ubuntu/app
    overwrite: true
+file_exist_behavior: OVERWRITE
 hooks:
   AfterInstall:
    - location: scripts/restart_server
