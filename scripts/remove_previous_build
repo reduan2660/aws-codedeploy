@@ -1,2 +1,3 @@
 #!/bin/bash
 sudo rm /home/ubuntu/app/docker-compose.yml
+sudo rm /home/ubuntu/app/scripts/remove_previous_build
