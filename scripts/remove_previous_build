@@ -1,3 +1,4 @@
 #!/bin/bash
 sudo rm /home/ubuntu/app/docker-compose.yml
 sudo rm -rf /home/ubuntu/app/scripts/
+sudo rm -rf /home/ubuntu/app/.github/
