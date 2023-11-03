@@ -20,7 +20,7 @@ jobs:
         id: deploy
         run: |
           aws deploy create-deployment \
-            --application-name test \
-            --deployment-group-name test \
-            --deployment-config-name CodeDeployDefault.OneAtATime \
+            --application-name red-boil-codedeploy-app \
+            --deployment-group-name red-boil-codedeploy-deployment-group \
+            --deployment-config-name CodeDeployDefault.HalfAtATime \
             --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
