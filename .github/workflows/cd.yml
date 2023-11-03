@@ -22,5 +22,4 @@ jobs:
           aws deploy create-deployment \
             --application-name red-boil-codedeploy-app \
             --deployment-group-name red-boil-codedeploy-deployment-group \
-            --deployment-config-name CodeDeployDefault.HalfAtATime \
             --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
